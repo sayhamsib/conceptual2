@@ -1,3 +1,40 @@
 .head{
+    color: green;
+    text-align: center;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.flex{
+    display: flex;
+    padding-bottom: 20px;
+}
+.sizing{
+    width: 50%;
+    padding: 5%;
+    
+    padding-bottom: 30px;
+}
+.sizing img{
+    width: 100%
+     
+}
+.link-button{
+    
+    text-decoration: none;
+    color: white;
+    width: 700;
+    background-image: -webkit-linear-gradient(green, red);
+    padding: 10px 35px;
+    border-radius: 7px;
+    
+
+   
+}
+.link-button:hover{
+    background-color: azure;
     color: black;
+}
+.all-div{
+    display: flex;
 }
